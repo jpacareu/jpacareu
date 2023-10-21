@@ -19,24 +19,24 @@ import { MySQL, Postgres, MongoDB } from "stacks/databases";
 import { GoogleAnalytics, Hotjar } from "stacks/tracking";
 
 const Typescript = Javascript.superset();
-const Cuban = new Cuba({
+const me = new Cuba({
   mama: "Ibis",
   papa: "Francisco",
   brother: "Frank",
   wife: "Leidys",
+  son: "Maxi",
   pet: "Pachi",
 });
 
 type JPacareuProps = {
-  getRestoOfAttributes: () => Record<string, unknown>;
+  getRestOfAttributes: () => Record<string, unknown>;
 };
 
 /**
  * Cuban developer with over 3 years of experience
  *
- * @param {func} getRestoOfAttributes Method that receives the rest of the features 
- * you can't cover in a single componente ;)
- * @public
+ * @param {func} getRestOfAttributes Method that receives the rest of the features 
+ * you can't cover in a single component ;)
  */
 const JPacareu = (props: JPacareuProps) => {
   <Cuban
@@ -53,7 +53,7 @@ const JPacareu = (props: JPacareuProps) => {
       tracking: [<GoogleAnalytics />, <Hotjar />],
       database: [<MySQL />, <Postgres />, <MongoDB />],
     }}
-    {...props.getRestoOfAttributes()}
+    {...props.getRestOfAttributes()}
   />;
 };
 
