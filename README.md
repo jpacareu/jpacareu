@@ -1,61 +1,47 @@
-This is me ;)
+# Hi 👋, I'm Javier Pacareu
 
-```tsx
-import React from "react";
-import Cuba from "countries/cuba";
-import FrontendDev from "developer/frontend";
-import FullstackDev from "developer/fullstack";
-import {
-  Javascript,
-  Webpack,
-  ReactJS,
-  Angular,
-  AngularJS,
-} from "stacks/frontend";
-import { Sass, MaterialUI, Bootstrap } from "stacks/frontend/styles";
-import { Jest, ReactTestingLib, Enzyme } from "stacks/testing";
-import { NodeJS, Express, NestJS } from "stacks/backend";
-import { MySQL, Postgres, MongoDB } from "stacks/databases";
-import { GoogleAnalytics, Hotjar } from "stacks/tracking";
-
-const Typescript = Javascript.superset();
-const me = new Cuba({
-  mama: "Ibis",
-  papa: "Francisco",
-  brother: "Frank",
-  wife: "Leidys",
-  son: "Maxi",
-  pet: "Pachi",
-});
-
-type JPacareuProps = {
-  getRestOfAttributes: () => Record<string, unknown>;
+```javascript
+const greet = async <T>(str: T) => {
+  const data = await Promise.resolve(str);
+  console.log(data);
 };
 
-/**
- * Cuban developer with over 3 years of experience
- *
- * @param {func} getRestOfAttributes Method that receives the rest of the features 
- * you can't cover in a single component ;)
- */
-const JPacareu = (props: JPacareuProps) => {
-  <Cuban
-    name="Javier Pacareu"
-    twitter="https://twitter.com/jpacareu"
-    linkedin="https://www.linkedin.com/in/javier-pacareu/"
-    jobDescription={[<FrontendDev />, <FullstackDev />]}
-    stacks={{
-      languages: [<Javascript />, <Typescript />],
-      frontend: [<ReactJS />, <Angular />, <AngularJS />, <Webpack />],
-      styles: [<Sass />, <MaterialUI />, <Bootstrap />],
-      testing: [<Jest />, <ReactTestingLib />, <Enzyme />],
-      backend: [<NodeJS types={[<Express />, <NestJS />]} />],
-      tracking: [<GoogleAnalytics />, <Hotjar />],
-      database: [<MySQL />, <Postgres />, <MongoDB />],
-    }}
-    {...props.getRestOfAttributes()}
-  />;
-};
-
-export default JPacareu;
+greet<string>('Hello, World!');
 ```
+
+## ¿QUÉ VUELTA? 🇨🇺
+
+I am a passionate programmer loving to resolve challenging problems.
+
+- 🚀 "Build succeed" in 1991 in Cuba a small island 90 miles away from Florida.
+
+- ❤️ Was seduced by C/C++ in college
+
+- 🕸️ Web Developer since 2015
+
+- ⚛️ Runaway to React in 2018
+
+- 💻 Frontend dev before anything 
+
+- 🇨🇱 2017 moved to Santiago, Chile 🗿🥑🍷
+
+ 
+<!--
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=jpacareu-meli" alt="jpacareu-meli" /> </p>
+-->
+
+<center>
+  <table>
+    <tr>
+        <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jpacareu&hide=html&layout=compact&show_icons=true&theme=gruvbox&count_private=true" /></td>
+        <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=jpacareu&show_icons=true&theme=gruvbox&count_private=true" /></td>
+    </tr>   
+  </table>
+</center>  
+
+---
+
+# Github Points: :octocat: 🏆️
+<p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=jpacareu&theme=onedark&margin-w=7&hide_border=true" alt="jpacareu points"/>
+</p>
